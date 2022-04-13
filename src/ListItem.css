@@ -1,0 +1,86 @@
+.listItem {
+    background-color: white;
+    margin: auto;
+    margin-top: 15px;
+    height: fit-content;
+    vertical-align: middle;
+    border: 0px;
+    border-bottom: 3px;
+    border-style: solid;
+    border-color: rgb(200, 232, 243);
+}
+
+.listItem-input {
+    font-size: x-large;
+    border-width: 0px;
+    border-color: black;
+    width: 75%;
+    padding: 5px;
+    margin: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    resize: none;
+    cursor: default;
+}
+
+.listItem-input-done {
+    color: lightgray;
+    border-color: lightgray;
+    text-decoration: line-through;
+}
+
+.listItem-checkBox {
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    transition: transform .25s ease;
+}
+
+.listItem-checkBox:hover {
+    transform: scale(1.1);
+}
+
+.listItem-delete {
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    transition: transform .25s ease;
+}
+
+.listItem-delete:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 1200px){
+    .listItem-input {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .listItem {
+        width: 95%;
+    }
+
+    .listItem-input {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .listItem {
+        width: 90%;
+    }
+
+    .listItem-input {
+        width: 50%;
+    }
+}

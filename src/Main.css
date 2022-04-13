@@ -1,0 +1,33 @@
+.main {
+    margin: auto;
+    min-width: 360px;
+    width: 50%;
+    background-color: white;
+    text-align: center;
+}
+
+.h1 {
+    display: inline-block;
+    margin: 10px;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 1200px){
+    .main {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .main {
+        width: 100%;
+    }
+}

@@ -1,0 +1,41 @@
+.addControl {
+    background-color: white;
+}
+
+.addControl-input {
+    background-color: rgb(200, 232, 243);
+    font-size: x-large;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: black;
+    margin: 5px;
+    padding: 5px;
+    width: 95%;
+    display: inline-block;
+    resize: none;
+}
+
+.addControl-label {
+    display: flex;
+    justify-content: right;
+    font-size: small;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 1200px){
+    .addControl-input {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .addControl-input {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .addControl-input {
+        width: 85%;
+    }
+}
